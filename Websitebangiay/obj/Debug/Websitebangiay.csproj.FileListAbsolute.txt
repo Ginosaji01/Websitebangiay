@@ -1,0 +1,168 @@
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Websitebangiay.dll.config
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Websitebangiay.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Websitebangiay.pdb
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\csc.exe
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\csc.exe.config
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\csc.rsp
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\csi.exe
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\csi.exe.config
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\csi.rsp
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.AppContext.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Collections.Immutable.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Console.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.Compression.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.FileSystem.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.Pipes.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Reflection.Metadata.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.AccessControl.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Claims.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.ValueTuple.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.XPath.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\vbc.exe
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\vbc.exe.config
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\vbc.rsp
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\VBCSCompiler.exe
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\roslyn\VBCSCompiler.exe.config
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Antlr3.Runtime.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Newtonsoft.Json.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Helpers.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Mvc.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Optimization.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Razor.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Deployment.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Razor.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\WebGrease.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Helpers.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Mvc.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Optimization.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.Razor.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Deployment.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Razor.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Newtonsoft.Json.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Antlr3.Runtime.pdb
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.csprojAssemblyReference.cache
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.csproj.CoreCompileInputs.cache
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.csproj.CopyComplete
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.pdb
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.SqlServer.dll
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.xml
+D:\ĐẠI_HỌC\IT\Năm 3\DoAnCNPM\webbangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.SqlServer.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Websitebangiay.dll.config
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Websitebangiay.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Websitebangiay.pdb
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\csc.exe
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\csc.exe.config
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\csc.rsp
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\csi.exe
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\csi.exe.config
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\csi.rsp
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.AppContext.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Collections.Immutable.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Console.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.Compression.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.FileSystem.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.IO.Pipes.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Reflection.Metadata.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.AccessControl.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Claims.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Security.Principal.Windows.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.ValueTuple.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.XPath.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\vbc.exe
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\vbc.exe.config
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\vbc.rsp
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\VBCSCompiler.exe
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\roslyn\VBCSCompiler.exe.config
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Antlr3.Runtime.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.SqlServer.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Microsoft.Web.Infrastructure.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Newtonsoft.Json.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Diagnostics.DiagnosticSource.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Helpers.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Mvc.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Optimization.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Razor.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Deployment.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Razor.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\WebGrease.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\EntityFramework.SqlServer.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Helpers.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Mvc.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Optimization.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.Razor.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Deployment.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Web.WebPages.Razor.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Newtonsoft.Json.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Antlr3.Runtime.pdb
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\System.Diagnostics.DiagnosticSource.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.dll
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.pdb
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.csprojResolveAssemblyReference.cache
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.Migrations.Initial.resources
+D:\CNPMNC\Websitebangiay\Websitebangiay\Websitebangiay\obj\Debug\Websitebangiay.csproj.GenerateResource.Cache

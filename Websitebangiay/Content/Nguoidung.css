@@ -1,0 +1,36 @@
+﻿main{
+	min-width: 0px;
+}
+
+.center-parent {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1920px) {
+    .product__image {
+        min-height: 334px;
+    } 
+}
+
+@media (min-width: 1920px) {
+    .product__image {
+        min-height: 334px;
+    } 
+}
+
+.onSelect{
+	background-color: darkgray;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}

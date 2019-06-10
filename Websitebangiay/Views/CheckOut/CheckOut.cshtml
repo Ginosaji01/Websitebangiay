@@ -1,0 +1,142 @@
+﻿@{
+    ViewBag.Title = "CheckOut";
+    Layout = null;
+}
+
+<div class="woocommerce  push-down-30" ng-controller="CheckOutController">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="col-xs-12 col-md-12">
+					<h3>Checkout</h3>
+					<hr>
+				</div>
+				<div class="col-xs-12 col-md-12 col-sm-12 warning_content" ng-show="isNull">
+					<p>{{message}}</p>		
+				</div>
+				<div class="col-xs-12 col-md-12 col-sm-12">
+					<h3><span class="light">Billing</span> Address</h3>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 push-down-10">
+							<p>
+								<label>
+									First Name
+									<abbr class="required">
+										*
+									</abbr>
+								</label>
+								<input class="input-text" ng-model="firstName" required>
+							</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 push-down-10">
+							<p>
+								<label>
+									Last Name
+									<abbr class="required">
+										*
+									</abbr>
+								</label>
+								<input class="input-text" ng-model="lastName" required>
+							</p>
+						</div>
+						<div class="col-xs-12  col-sm-12  push-down-10">
+							<p>
+								<label>
+									Address
+									<abbr class="required">
+										*
+									</abbr>
+								</label>
+								<input class="input-text  push-down-10" placeholder="Street address" ng-model="address" required>
+							</p>
+						</div>
+						<div class="col-xs-12  col-sm-12  push-down-10">
+							<p>
+								<label>
+									Town / City
+									<abbr class="required">
+										*
+									</abbr>
+								</label>
+								<input class="input-text push-down-10" placeholder="Town / City" ng-model="townCity" required>
+							</p>
+						</div>
+						<div class="col-xs-12  col-sm-6  push-down-10">
+							<p>
+								<label>
+									Email Address
+									<abbr class="required">
+										*
+									</abbr>
+								</label>
+								<input class="input-text" ng-model="email">
+							</p>
+						</div>
+						<div class="col-xs-12  col-sm-6  push-down-10">
+							<p>
+								<label>
+									Phone
+									<abbr class="required">
+										*
+									</abbr>
+								</label>
+								<input class="input-text" type="number" ng-model="phone" required>
+							</p>
+						</div>
+						<div class="col-xs-12 col-sm-12">
+							<p>
+								<label>
+									Order notes
+								</label>
+								<textarea class="input-text" rows="3" ng-model="note"></textarea>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 bill_background">
+				<h3 id="order_title">YOUR ORDER</h3>
+				<div class="bill_detail">
+					<table class="shop_table push-down-30">
+						<thead>
+							<tr>
+								<th class="product-name">Product</th>
+								<th class="product-total">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="checkout_table_item" ng-repeat="item in carts">
+								<td class="product-name">
+									{{item.title}} <strong class="product-quantity">× {{item.quantity}}</strong><br/>
+									<span class="product-size">size: {{item.size}}</span>
+								</td>
+								<td class="product-total"><span class="amount">{{item.price}}</span></td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr class="cart-subtotal">
+								<th>Cart Subtotal</th>
+								<td><span class="amount">{{setTotals(item)}}</span></td>
+							</tr>
+							<tr class="shipping">
+								<th>Payment</th>
+								<td class="shipping-payment">Payment on delivery</td>
+							</tr>
+							<tr class="total">
+								<th><strong>Order Total</strong></th>
+								<td>
+									<strong><span class="amount">{{setTotals(item)}}</span></strong>
+								</td>
+							</tr>
+						</tfoot>					
+					</table>
+
+					<button class="button-check-out" name="btnCheckOut" ng-click="checkContent()">ORDER</button>
+				</div>
+			</div>
+		</div>
+		<hr class="divider">
+	</div>
+</div>
+

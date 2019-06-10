@@ -1,0 +1,173 @@
+﻿@{
+	ViewBag.Title = "SanPhamDetail";
+	Layout = null;
+}
+
+<div class="container" ng-controller="ProductDetailsController">
+	<div class="push-down-30">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<div class="product-preview">
+					<div class="push-down-20" ng-if="!changed">
+						<img alt="Single product image" ng-src="{{'/Content/Sanpham/' + id_type + '/' + image}}" width="360" height="458" />
+					</div>
+					<div class="push-down-20" ng-if="changed">
+						<img alt="Single product image" ng-src="{{'/Content/Sanpham/' + id + '/' + photo}}" width="360" height="458" />
+					</div>
+					<div class="product-preview__thumbs clearfix">
+						<div class="product-preview__thumb js--preview-thumbs" ng-class="{active: imgActive === 1}">
+							<a>
+								<img ng-src="{{'/Content/Sanpham/' + id_type + '/' + image}}" alt="Single product thumbnail image" width="66" height="82" ng-click="topImage(id_type, image, 1)"/>
+							</a>
+						</div>
+						<div class="product-preview__thumb js--preview-thumbs" ng-class="{active: imgActive === 2}">
+							<a>
+								<img ng-src="{{'/Content/Sanpham/' + id_type + '/' + image2}}" alt="Single product thumbnail image" width="66" height="82" ng-click="topImage(id_type, image2, 2)"/>
+							</a>
+						</div>
+						<div class="product-preview__thumb js--preview-thumbs" ng-class="{active: imgActive === 3}">
+							<a>
+								<img ng-src="{{'/Content/Sanpham/' + id_type + '/' + image3}}" alt="Single product thumbnail image" width="66" height="82" ng-click="topImage(id_type, image3, 3)"/>
+							</a>
+						</div>
+						<div class="product-preview__thumb js--preview-thumbs" ng-class="{active: imgActive === 4}">
+							<a>
+								<img ng-src="{{'/Content/Sanpham/' + id_type + '/' + image4}}" alt="Single product thumbnail image" width="66" height="82" ng-click="topImage(id_type, image4, 4)"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<div class="products__content">
+					<div class="push-down-30"></div>
+					<span class="products__category">{{category}}</span>
+					<h1 class="single-product__title">{{title}}</h1>
+					<span class="single-product__price">{{price}}</span>
+
+					<!--ng-if for rating-->
+					<div class="single-product__rating" ng-if="rating === 0 || rating === null">
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+					</div>
+
+					<div class="single-product__rating" ng-if="rating === 1">
+							<span class="glyphicon  glyphicon-star  star-on"></span>
+							<span class="glyphicon  glyphicon-star  star-off"></span>
+							<span class="glyphicon  glyphicon-star  star-off"></span>
+							<span class="glyphicon  glyphicon-star  star-off"></span>
+							<span class="glyphicon  glyphicon-star  star-off"></span>
+					</div>
+
+					<div class="single-product__rating" ng-if="rating === 2">
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+					</div>
+					<div class="single-product__rating" ng-if="rating === 3">
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+					</div>
+					<div class="single-product__rating" ng-if="rating === 4">
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-off"></span>
+					</div>
+					<div class="single-product__rating" ng-if="rating === 5">
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+						<span class="glyphicon  glyphicon-star  star-on"></span>
+					</div>
+
+					<div class="in-stock--single-product" ng-if="stock == 1">
+						<span class="in-stock">&bull;</span> <span class="in-stock">CÒN HÀNG</span>
+					</div>
+
+
+					<div class="in-stock--single-product" ng-if="stock == 0">
+						<span class="out-of-stock">&bull;</span> <span class="out-of-stock">HẾT HÀNG</span>
+					</div>
+
+					<hr class="bold__divider">
+					<p class="single-product__text">
+						{{description}}
+					</p>
+					<hr class="bold__divider">
+					<!-- Single button -->
+					
+					<!-- Quantity buttons -->
+					<div ng-show="stock === 1" ng-hide="stock === 0">
+						<div class="quantity  js--quantity">
+							<input type="button" ng-click="subQuantity()" value="-" class="quantity__button">
+							<input type="text" ng-model="quantity" name="quantity" value="{{quantity}}" class="quantity__input">
+							<input type="button" ng-click="plusQuantity()" value="+" class="quantity__button">
+						</div>
+						<!-- Add to cart button -->
+
+						<a class="btn btn-primary--transition">
+							<span class="glyphicon glyphicon-plus"></span><span class="glyphicon glyphicon-shopping-cart"></span>
+							<span class="single-product__btn-text" ng-click="addCart(Id, image, id_type, title, price, quantity, size)">Add to shopping cart</span>
+						</a>
+
+						<div class="row">
+							<h4>Size: {{size}}</h4> <!-- ng-model only for input-->
+							<div class="col-xs-12  col-sm-12  col-md-12">
+								<button type="button" class="btn btn-default" ng-click="getSize(3)">EU 3</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(4)">EU 4</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(5)">EU 5</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(6)">EU 6</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(7)">EU 7</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(8)">EU 8</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(9)">EU 9</button>
+								<button type="button" class="btn btn-default" ng-click="getSize(10)">EU 10</button>
+							</div>
+						</div>
+					</div>
+					<!-- Social banners -->
+					<div class="row">
+						<div class="col-xs-12  col-sm-6  col-md-4">
+							<div class="banners-small  banners-small--social">
+								<a href="#" class="social">
+									<span class="zocial-facebook"></span>
+									Share on<br>
+									<span class="banners-small--text">Facebook</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6  col-md-4">
+							<div class="banners-small  banners-small--social">
+								<a href="#" class="social">
+									<span class="zocial-twitter"></span>
+									Tweet it<br>
+									<span class="banners-small--text">Twitter</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6  col-md-4">
+							<div class="banners-small  banners-small--social">
+								<a href="#" class="social">
+									<span class="zocial-pinterest"></span>
+									Pin on<br>
+									<span class="banners-small--text">Pinterest</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

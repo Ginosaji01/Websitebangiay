@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>@ViewBag.Title</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="ProteusNet">
+	<link rel="icon" type="image/ico" href="~/Content/Source/src/images/oldsource/favicon.png">
+	<title>Organique - HTML Template For Organic Shop</title>
+	<!-- Custom styles for this template -->
+	<!-- build:css stylesheets/main.css -->
+	<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+	<link href="~/Content/Source/src/stylesheets/bootstrap.css" rel="stylesheet">
+	<link href="~/Content/Source/src/stylesheets/main.css" rel="stylesheet">
+	<link href="~/Content/Nguoidung.css" rel="stylesheet" />
+	<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+	<script src="~/Scripts/angular.min.js"></script>
+	<script src="~/Scripts/angular-ui-router.min.js"></script>
+	<script src="~/Scripts/angular-route.min.js"></script>
+	<script src="~/Scripts/angular-cookies.min.js"></script>
+	<script src="~/Scripts/moment.min.js"></script>
+	<script src="~/Scripts/angular-moment.min.js"></script>
+	<script src="~/Scripts/Routing.js"></script>
+	<script src="~/Scripts/ProductRender.js"></script>
+	<script src="~/Scripts/Authenticate.js"></script>
+	<script src="~/Scripts/Flash.js"></script>
+	<script src="~/Scripts/User.js"></script>
+	<script src="~/Scripts/Login.js"></script>
+	<script src="~/Scripts/Manage.js"></script>
+	<script src="~/Scripts/ProfitCalculate.js"></script>
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+	<!-- endbuild -->
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+	<!-- Google fonts -->
+	<script type="text/javascript">
+        WebFontConfig = {
+            google: { families: ['Arvo:700:latin', 'Open+Sans:400,600,700:latin'] }
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+	</script>
+</head>
+<body ng-app="WebsiteBanGiay" ng-controller="rootController">
+	<div>
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12  col-sm-6">
+						<div class="top__slogan">
+							Trùm giày thể thao <small><span class="glyphicon  glyphicon-heart  tertiary-color"></span></small> Adidas, Nike Kids - Tss.com
+						</div>
+					</div>
+					<div class="col-xs-12  col-sm-6">
+						<div class="top__menu">
+							<ul class="nav  nav-pills">
+								<li><a ui-sref="login">My account</a></li>
+								<li class="dropdown  js--mobile-dropdown">
+									Thứ 2-CN : 8h-17h30
+								</li>
+								<li class="dropdown  js--mobile-dropdown">
+									<span class="glyphicon glyphicon-earphone glyphicon--banners">
+										<b>0981.706.588</b>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-10  col-md-3">
+						<div class="header-logo">
+							<a ui-sref="home"><img alt="Logo" src="~/Content/Sanpham/logo.png" width="200" height="90"></a>
+						</div>
+					</div>
+					<div class="col-xs-2  visible-sm  visible-xs">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle  collapsed" data-toggle="collapse" data-target="#collapsible-navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+					</div>
+					<div class="col-xs-12  col-md-7">
+						<nav class="navbar  navbar-default" role="navigation">
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse  navbar-collapse" id="collapsible-navbar">
+								<div class="center-parent">
+									<ul class="nav  navbar-nav">
+										<li>
+											<a ui-sref="home">TRANG CHỦ</a>
+										</li>
+										<li>
+											<a ui-sref="allProductList">SẢN PHẨM</a>
+										</li>
+										<li>
+											<a ui-sref="contact">LIÊN LẠC</a>
+										</li>
+									</ul>
+								</div>
+
+								<!-- search for mobile devices -->
+								<form action="#" method="post" class="visible-xs  visible-sm  mobile-navbar-form" role="form">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search">
+										<span class="input-group-addon">
+											<button type="submit" class="mobile-navbar-form__appended-btn"><span class="glyphicon  glyphicon-search  glyphicon-search--nav"></span></button>
+										</span>
+									</div>
+								</form>
+								<div class="mobile-cart  visible-xs  visible-sm  push-down-15">
+									<span class="header-cart__text--price"><span class="header-cart__text">CART</span></span>
+									<a href="cart.html" class="header-cart__items">
+										<span class="header-cart__items-num">{{carts.length}}</span>
+									</a>
+								</div>
+							</div><!-- /.navbar-collapse -->
+						</nav>
+					</div>
+					<div class="col-xs-12  col-md-2  hidden-sm  hidden-xs">
+						<!-- Cart in header -->
+						<div class="header-cart">
+							<span class="header-cart__text--price"><span class="header-cart__text">CART</span></span>
+							<a ui-sref="cartDetails" class="header-cart__items">
+								<span class="header-cart__items-num">{{carts.length}}</span>
+							</a>
+							<!-- Open cart panel -->
+							<div class="header-cart__open-cart" >
+								<div class="header-cart__product  clearfix  js--cart-remove-target" ng-repeat="item in carts">
+									<div class="header-cart__product-image">
+										<img alt="Product in the cart" ng-src="{{'/Content/Sanpham/' + item.id_type + '/' + item.image}}" width="40" height="50"> <!--product in cart-->
+									</div>
+									<div class="header-cart__product-image--hover">
+										<a href="#" class="js--remove-item" data-target=".js--cart-remove-target"><span class="glyphicon  glyphicon-circle  glyphicon-remove" ng-click="removeCart(item)"></span></a>
+									</div>
+									<div class="header-cart__product-title">
+										<a class="header-cart__link" ui-sref="productDetails({Id: item.Id})">{{item.title}}</a>
+										<span class="header-cart__qty">Quantity: {{item.quantity}}</span>
+									</div>
+									<div class="header-cart__price">
+										{{item.price * item.quantity}}
+									</div>
+								</div>
+
+								<hr class="header-cart__divider">
+								<div class="header-cart__subtotal-box">
+									<span class="header-cart__subtotal">CART SUBTOTAL:</span>
+									<span class="header-cart__subtotal-price">{{setTotals(item)}}</span>
+								</div>
+								<a class="btn btn-darker" ui-sref="cartDetails">Procced to checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Search open pannel-->
+			<div class="search-panel">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-11">
+							<form class="search-panel__form" action="search-results.html">
+								<button type="submit"><span class="glyphicon  glyphicon-search"></span></button>
+								<input type="text" name="s" class="form-control" placeholder="Enter your search keyword">
+							</form>
+						</div>
+						<div class="col-sm-1">
+							<div class="search-panel__close  pull-right">
+								<a href="#" class="js--toggle-search-mode"><span class="glyphicon  glyphicon-circle  glyphicon-remove"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!---->
+		@RenderBody()
+		
+		
+		<div class="testimonials  light-paper-pattern">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3  hidden-xs">
+						<div class="testimonials__quotes">
+							<img alt="#" class="testimonials__quotes--img" src="~/Content/Source/src/images/oldsource/quotes.png">
+						</div>
+					</div>
+					<div class="col-xs-12  col-sm-6">
+						<h4 class="testimonials__title"><span class="light">Others</span> About Us</h4>
+						<hr class="divider-dark">
+						<div id="js--testimonails-carousel" class="carousel  slide" data-ride="carousel" data-interval="5000">
+							<div class="carousel-inner">
+								<div class="item  active">
+									<q class="testimonials__text">A top quality product delivered super quick! Thank you so much The Shoe Shop,<br>I shall definitely be using you guys again!</q><br><br>
+									<cite><b>John Don Joe,</b></cite> Athlete 
+								</div>
+								<div class="item">
+									<q class="testimonials__text">THANKS! I really appreciate the FAST service of The Shoe Shop! Really Really Happy with the product and support! Thanks again.</q><br><br>
+									<cite><b>Timonvki,</b></cite> Customer
+								</div>
+								<div class="item">
+									<q class="testimonials__text">Great theme, perfect for any sport lover. Excellent products and really fast delivery.</q><br><br>
+									<cite><b>Ypclarke,</b></cite> Customer
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3  hidden-xs">
+						<div class="testimonials__quotes--rotate">
+							<img alt="#" class="testimonials__quotes--img" src="~/Content/Source/src/images/oldsource/quotes.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="js--page-footer">
+			<div class="footer-widgets">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12  col-sm-3">
+							<div class="footer-widgets__social">
+								<img class="push-down-10" alt="Footer Logo" src="~/Content/Source/src/images/oldsource/logo-footer.png" width="139" height="35">
+								<p class="push-down-15">Adipiscing elit. Ut ullamcorper consectetur, non lacinia turpis suscipit non. Estibulum nu nc lacus, tincidunt non odio eu, scelerisque tristique quam.</p>
+								<a class="social-container" href="https://www.facebook.com/ProteusNet"><span class="zocial-facebook"></span></a>
+								<a class="social-container" href="https://twitter.com/ProteusNetCom"><span class="zocial-twitter"></span></a>
+								<a class="social-container" href="#"><span class="zocial-email"></span></a>
+								<a class="social-container" href="http://www.youtube.com/user/ProteusNetCompany"><span class="zocial-youtube"></span></a>
+							</div>
+						</div>
+						<div class="col-xs-12  col-sm-3">
+							<div class="footer-widgets__navigation center">
+								<div class="footer-wdgets__heading--line">
+									<h4 class="footer-widgets__heading">Category</h4>
+								</div>
+								<a class="footer__link" ui-sref="adidasProductList">Adidas</a><br>
+								<a class="footer__link" ui-sref="nikeProductList">Nike</a><br/>
+								<a class="footer__link" ui-sref="converseProductList">Converse</a><br />
+								<a class="footer__link" ui-sref="pumaProductList">Puma</a>
+							</div>
+						</div>
+						<div class="col-xs-12  col-sm-3">
+							<div class="footer-widgets__navigation center">
+								<div class="footer-wdgets__heading--line">
+									<h4 class="footer-widgets__heading">Links</h4>
+								</div>
+								<a class="footer__link" ui-sref="home">Trang chủ</a><br>
+								<a class="footer__link" ui-sref="product">Sản phẩm</a><br />
+								<a class="footer__link" ui-sref="home">Tin tức</a><br />
+								<a class="footer__link" ui-sref="contact">Liên lạc</a>
+							</div>
+						</div>
+						<div class="col-xs-12  col-sm-3">
+							<div class="footer-widgets__navigation">
+								<div class="footer-wdgets__heading--line">
+									<h4 class="footer-widgets__heading">Contact Us</h4>
+								</div>
+								<a class="footer__link" href="#">Organique ltd.</a><br>
+								Tehnološki park 19,<br>
+								1000 Ljubljana, Slovenia<br>
+								<a class="footer__link--small" href="contact-2.html">View Google map <span class="glyphicon glyphicon-chevron-right glyphicon--footer-small"></span></a><br><br>
+								<a class="footer__link" href="#"><span class="glyphicon glyphicon-earphone glyphicon--footer"></span> +386 31 567 537</a><br>
+								<a class="footer__link" href="#"><span class="glyphicon glyphicon-envelope glyphicon--footer"></span> hello@proteusnet.com</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12  col-sm-6">
+							<div class="footer__text--link">
+								<a class="footer__link" href="#">Organique</a> HTML Theme © Copyright 2014. Images of products by <a class="footer__link" href="http://www.nutrisslim.com/" target="_blank">Nutrisslim</a>.
+							</div>
+						</div>
+						<div class="col-xs-12  col-sm-6">
+							<div class="footer__text">
+								Made with <span class="glyphicon  glyphicon-heart"></span> by <a class="footer__link" href="http://www.proteusthemes.com/" target="_blank">ProteusThemes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="search-mode__overlay"></div>
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-33538073-8', 'proteusthemes.com');
+			ga('send', 'pageview');
+		</script>
+	</div>
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	@RenderSection("scripts", required: false)
+</body>
+</html>

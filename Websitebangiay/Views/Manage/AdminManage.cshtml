@@ -1,0 +1,167 @@
+﻿@{
+	ViewBag.Title = "AdminManage";
+	Layout = null;
+}
+
+<br />
+<br />
+<div class="container  push-down-30">
+	<div class="row">
+		<div class="col-xs-12  push-down-60">
+			<h1 class="center">Store<span class="light"></span> Management</h1>
+			<hr class="divider">
+			<div class="text-shrink">
+				<p class="text-highlight">
+					Use this page to view, add, edit, delete account, income, bill, bill details, customer and product.
+				</p>
+			</div>
+			<hr class="divider  divider-about">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/money.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Income</span></h3>
+							<ul>
+								<li>View income (month or year): @Html.ActionLink("View", "Profit", "Profit")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/employee.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Account</span></h3>
+							<ul>
+								<li>View all account: @Html.ActionLink("View", "Index", "Users")</li>
+								<li>Add new account: @Html.ActionLink("Create", "Create", "Users")</li>
+								<li>Edit existed account: @Html.ActionLink("Edit", "Index", "Users")</li>
+								<li>Delete existed account: @Html.ActionLink("Delete", "Index", "Users")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/package.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Product</span></h3>
+							<ul>
+								<li>View all product: @Html.ActionLink("View", "Index", "Products")</li>
+								<li>Add new product: @Html.ActionLink("Add", "Create", "Products")</li>
+								<li>Edit existed product(s): @Html.ActionLink("Edit", "Index", "Products")</li>
+								<li>Delete existed product(s) @Html.ActionLink("Delete", "Index", "Products")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/customer.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Customer</span></h3>
+							<ul>
+								<li>View all customer infomation: @Html.ActionLink("View", "Index", "Customers")</li>
+								<li>Edit customer infomation: @Html.ActionLink("Edit", "Index", "Customers")</li>
+								<li>Delete customer infomation: @Html.ActionLink("Delete", "Index", "Customers")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/bill.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Order</span></h3>
+							<ul>
+								<li>View all orders: @Html.ActionLink("View", "Index", "Bills")</li>
+								<li>Edit existed orders: @Html.ActionLink("Edit", "Index", "Bills")</li>
+								<li>Delete existed orders @Html.ActionLink("Delete", "Index", "Bills")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/home-delivery.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Order details</span></h3>
+							<ul>
+								<li>View all order details: @Html.ActionLink("View", "Index", "Bill_Detail")</li>
+								<li>Edit order details: @Html.ActionLink("Edit", "Index", "Bill_Detail")</li>
+								<li>Delete order details @Html.ActionLink("Delete", "Index", "Bill_Detail")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="row">
+				<div class="features-container">
+					<div class="col-md-6">
+						<div class="features-images">
+							<img src="~/Content/Sanpham/printer-cartridges.png" width="270" height="230">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="features-detail">
+							<h3><span class="light">Product Type</span></h3>
+							<ul>
+								<li>View all product type: @Html.ActionLink("View", "Index", "Type_Product")</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

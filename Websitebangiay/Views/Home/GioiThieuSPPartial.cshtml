@@ -1,0 +1,20 @@
+﻿<div class="jumbotron  js--add-gradient" style="background: url('../../Content/Sanpham/Slide.png') repeat center top;
+  position: relative;">
+	<div class="container" ng-controller="ProductController">
+		<div class="jumbotron__container" ng-repeat="p in allProduct">
+			<h2 class="jumbotron__subtitle">
+				{{p.title}}
+			</h2>
+			<h1 class="jumbotron__title">
+				{{p.description}}
+			</h1>
+			<a class="btn  btn-warning" href="{{p.image}}" target="_blank">Buy theme</a>
+			<a class="btn  btn-jumbotron" href="features.html">More details</a>
+		</div>
+	</div>
+</div>
+    
+
+
+
+

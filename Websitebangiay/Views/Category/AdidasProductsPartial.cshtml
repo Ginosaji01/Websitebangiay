@@ -1,0 +1,64 @@
+﻿<div class="container" ng-controller="AdidasController">
+	<!-- Navigation for products -->
+	<div class="products-navigation  push-down-15">
+		<div class="row">
+			<div class="col-xs-12  col-sm-8">
+				<div class="products-navigation__title">
+					<h3><span class="light">Sản phẩm mới </span>ADIDAS</h3>
+				</div>
+			</div>
+			<div class="col-xs-12  col-sm-4">
+				<div class="products-navigation__arrows">
+					<a data-target="#AdidasCarousel" data-slide="prev"><span class="glyphicon  glyphicon-chevron-left  glyphicon-circle  products-navigation__arrow"></span></a>&nbsp;
+					<a data-target="#AdidasCarousel" data-slide="next"><span class="glyphicon  glyphicon-chevron-right  glyphicon-circle  products-navigation__arrow"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Products -->
+	<div id="AdidasCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<!--Start-->
+			<div class="item" ng-class="{active: i === 0}" ng-repeat="i in [] | range: repeatTime">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 js--isotope-target" ng-repeat="p in productList.slice(i * 4, (i * 4) + 4) track by $index" ng-if="p.moi == 1">
+						<div class="products__single">
+							<figure class="products__image">
+								<a ui-sref="productDetails({Id: p.Id})">
+									<img alt="#" class="product__image" width="263" height="334" ng-src="~/Content/Sanpham/1/{{p.image}}">
+								</a>
+								<div class="product-overlay">
+									<a class="product-overlay__more" ui-sref="productDetails({Id: p.Id})">
+										<span class="glyphicon glyphicon-search"></span>
+									</a>
+									<div class="product-overlay__stock" ng-if="p.stock == 1">
+										<span class="in-stock">&bull;</span> <span class="in-stock--text">Còn hàng</span>
+									</div>
+									<div class="product-overlay__stock" ng-if="p.stock == 0">
+										<span class="out-of-stock">&bull;</span> <span class="in-stock--text">Hết hàng</span>
+									</div>
+								</div>
+							</figure>
+							<div class="row">
+								<div class="col-xs-9">
+									<h5 class="products__title">
+										<a class="products__link  js--isotope-title" ui-sref="productDetails({Id: p.Id})">{{p.title}}</a>
+									</h5>
+								</div>
+								<div class="col-xs-3">
+									<div class="products__price">
+										{{p.price}}
+									</div>
+								</div>
+							</div>
+							<div class="products__category">
+								{{p.category}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

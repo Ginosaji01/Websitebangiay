@@ -1,0 +1,63 @@
+﻿@{
+	ViewBag.Title = "Profit";
+	Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<br/>
+<br />
+<div class="container push-down-30" ng-controller="ProfitCalController">
+	<div class="row">
+		<div class="col-xs-12  push-down-60">
+			<h1 class="center"><span class="light"></span> Income </h1>
+			<hr class="divider">
+			<div class="text-shrink">
+				<p class="text-highlight">
+					Show profit in a specific month or year.
+				</p>
+			</div>
+			<hr class="divider  divider-about">
+		</div>
+
+		<div class="col-xs-12 col-md-12 col-sm-12 warning_content" ng-show="isCaution">
+			<p>{{message}}</p>
+		</div>
+
+		<div class="col-xs-12  push-down-60">
+			<div class="row">
+				<h4>Please input year or month you want to view.</h4>
+			</div>
+			<div class="row">
+				<b>Month:</b> <input type="number" name="month" class="profitInput" ng-model="month"/>
+				<input type="button" class="btnProfit" ng-click="MonthlyProfit(month)" value="View Income"/>
+			</div>
+			<br />
+			<div class="row">
+				<b>Year:</b> <input type="number" name="year" class="profitInput" ng-model="year"/>
+				<input type="button" class="btnProfit" ng-click="AnnualProfit(year)" value="View Income"/>
+			</div>
+		</div>
+
+		<div class="col-xs-12  push-down-60">
+			<table id="profit" ng-hide="!isInputValid">
+				<tr>
+					<th>Id:</th>
+					<th>Id customer:</th>
+					<th>Order date:</th>
+					<th>Total</th>
+				</tr>
+				<tr ng-repeat="item in billList">
+					<td>{{item.Id}}</td>
+					<td>{{item.id_customer}}</td>
+					<td>{{item.date_order | amDateFormat:'DD-MM-YYYY'}}</td>
+					<td>{{item.total}}</td>
+				</tr>
+				<tr ng-show="monthlyProfitShow === true">
+					<td colspan="4" class="profit">Income in month {{month}}: {{profit}} VND</td>
+				</tr>
+
+				<tr ng-show="yearlyProfitShow === true">
+					<td colspan="4" class="profit">Income in year {{year}}: {{profit}} VND</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>

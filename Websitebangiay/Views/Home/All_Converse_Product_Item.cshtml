@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "All_Converse_Product_Item";
+    Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<div class="container" ng-controller="ConverseController">
+	<!-- Big banner -->
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="push-down-30">
+				<div class="banners-big">
+					Exposed shop notice, like <strong>free worldwide</strong> shipping on all purchases over $50
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12  col-sm-3">
+			<aside class="sidebar  sidebar--shop">
+				<h3 class="sidebar__title"><span class="light">The Shoe</span> Shop</h3>
+				<hr class="shop__divider">
+				<div class="shop-filter">
+					<h5 class="sidebar__subtitle">Categories</h5>
+					<ul class="nav  nav--filter">
+						<li><a ui-sref="allProductList">All Product</a></li>
+
+						<li><a ui-sref="adidasProductList">Adidas</a></li>
+
+						<li><a ui-sref="nikeProductList">Nike</a></li>
+
+						<li><a ui-sref="converseProductList">Converse</a></li>
+
+						<li><a ui-sref="pumaProductList">Puma</a></li>
+					</ul>
+					<hr class="divider">
+				</div>
+			</aside>
+		</div>
+		<div class="col-xs-12  col-sm-9">
+			<div class="grid">
+				<ul class="pagination  shop__amount-filter">
+					<li>
+						<a class="shop__amount-filter__link  hidden-xs" ui-sref="converseProductItem"><span class="glyphicon glyphicon-th"></span></a>
+					</li>
+					<li>
+						<a class="shop__amount-filter__link  hidden-xs" ui-sref="converseProductList"><span class="glyphicon glyphicon-th-list"></span></a>
+					</li>
+				</ul>
+				<hr class="shop__divider">
+				<div class="row">
+					<div class="col-xs-6 col-sm-4" ng-repeat="p in productList">
+						<div class="products__single">
+							<figure class="products__image">
+								<a ui-sref="productDetails({Id: p.Id})">
+									<img alt="#" class="product__image" width="263" height="334" ng-src="{{'/Content/Sanpham/' + p.id_type + '/' + p.image}}">
+								</a>
+								<div class="product-overlay">
+									<a class="product-overlay__more" ui-sref="productDetails({Id: p.Id})">
+										<span class="glyphicon glyphicon-search"></span>
+									</a>
+									<div class="product-overlay__stock" ng-if="p.stock == 1">
+										<span class="in-stock">&bull;</span> <span class="in-stock--text">Còn hàng</span>
+									</div>
+									<div class="product-overlay__stock" ng-if="p.stock == 0">
+										<span class="out-of-stock">&bull;</span> <span class="in-stock--text">Hết hàng</span>
+									</div>
+								</div>
+							</figure>
+							<div class="row">
+								<div class="col-xs-9">
+									<h5 class="products__title">
+										<a class="products__link" ui-sref="productDetails({Id: p.Id})">{{p.title}}</a>
+									</h5>
+								</div>
+								<div class="col-xs-3">
+									<div class="products__price">
+										{{p.price}}
+									</div>
+								</div>
+							</div>
+							<div class="products__category">
+								{{p.category}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

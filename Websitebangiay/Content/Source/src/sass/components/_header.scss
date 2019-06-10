@@ -1,0 +1,50 @@
+// Header
+.header {
+  background: linear-gradient(to bottom, $lighter-color 0%, $default-color 100%);
+  position: relative;
+  z-index: 1001;
+  // position: fixed;
+
+  .header-logo {
+    padding: 5px 0;
+  }
+
+  .navbar-toggle {
+    border: 0;
+    margin: 34px 0;
+    background-color: $secondary-color;
+
+    &.collapsed {
+      background-color: $primary-color;
+    }
+
+    .icon-bar {
+      background-color: $lighter-color;
+    }
+  }
+
+  a {
+    &:active {
+      background: none;
+    }
+  }
+}
+
+// mobile navbar form
+.mobile-navbar-form {
+  padding-top: 1em;
+  padding-bottom: 2em;
+
+  .form-control {
+    border: 1px solid $light-color;
+    border-right: none;
+    background: $lighter-color;
+  }
+}
+.mobile-navbar-form__appended-btn {
+  background: none;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+

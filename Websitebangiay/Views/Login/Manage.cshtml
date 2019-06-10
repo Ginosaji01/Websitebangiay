@@ -1,0 +1,35 @@
+﻿@{
+	Layout = null;
+}
+<br />
+<br />
+<br />
+<div class="container  push-down-30" ng-controller="LoggedInController">
+	<div class="row">
+		<div class="col-xs-12  push-down-60">
+			<h1 class="center">Welcome<span class="light"></span> {{vm.user.role}}</h1>
+			<hr class="divider">
+			<div class="text-shrink">
+				<p class="text-highlight">
+					You are logged in
+				</p>
+			</div>
+			<hr class="divider  divider-about">
+		</div>
+	</div>
+	<div class="row">
+		<div ng-if="vm.user.role === 'ADMIN'">
+			<p>Click here to go to Admin page: <a ui-sref="adminManage">To admin page</a></p>
+		</div>
+
+		<div ng-if="vm.user.role === 'USER'">
+			<p>Click here to go to User page: <a ui-sref="userManage">To user page</a></p>
+		</div>
+	</div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+

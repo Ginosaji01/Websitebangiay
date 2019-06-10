@@ -1,0 +1,24 @@
+{
+  "name": "html-base",
+  "version": "0.0.0",
+  "authors": [
+    "Primoz Cigler <primoz.cigler@gmail.com>"
+  ],
+  "description": "base for html templates",
+  "main": "src/index.html",
+  "keywords": [
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.proteusnet.com/",
+  "devDependencies": {
+    "requirejs": "~2.1.9",
+    "sass-bootstrap": "~3.0.2",
+    "enquire": "~2.1.0",
+    "underscore-amd": "~1.5.2",
+    "isotope": "~1.5.26",
+    "jquery": "~2.1.0",
+    "jquery-ui": "git@github.com:jquery/jquery-ui.git#~1.10.4",
+    "requirejs-plugins": "~1.0.2"
+  }
+}

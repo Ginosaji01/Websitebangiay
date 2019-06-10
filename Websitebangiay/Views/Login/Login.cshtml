@@ -1,0 +1,76 @@
+﻿@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="~/Content/Source/src/login/images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/css/util.css">
+	<link rel="stylesheet" type="text/css" href="~/Content/Source/src/login/css/main.css">
+	<!--===============================================================================================-->
+</head>
+<body>
+	<div class="limiter" ng-controller="LoginController">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(/Content/Source/src/login/images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Sign In
+					</span>
+				</div>
+
+				<form class="login100-form validate-form" novalidate name="form" ng-submit="vm.login()">
+					<div class="wrap-input100 m-b-26">
+						<span class="label-input100">Username</span>
+						<input type="text" class="input100" ng-model="vm.username" name="userName" ng-class="Submitted ? 'ng-dirty' : '' " required autofocus placeholder="Enter username" />
+						<span class="error" ng-show="(form.userName.$dirty || Submitted) && form.userName.$error.required">Username required</span>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 m-b-18">
+						<span class="label-input100">Password</span>
+						<input type="password" class="input100" ng-model="vm.password" name="password" ng-class="Submitted ? 'ng-dirty' : '' " required autofocus placeholder="Enter password" />
+						<span class="error" ng-show="(form.password.$dirty || Submitted) && form.password.$error.required">Password required</span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="login100-form-btn">Login</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--===============================================================================================-->
+	<script src="~/Content/Source/src/login/vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/Content/Source/src/login/vendor/bootstrap/js/popper.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/Content/Source/src/login/vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/Content/Source/src/login/vendor/daterangepicker/moment.min.js"></script>
+	<script src="~/Content/Source/src/login/vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/Content/Source/src/login/vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/Content/Source/src/login/js/main.js"></script>
+</body>
+</html>
